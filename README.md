@@ -29,6 +29,7 @@ it's own UKF object generated for it, and will update each indidual one during e
 The red spheres above cars represent the (x,y) lidar detection and the purple lines show the radar measurements with the velocity magnitude along the detected angle. The Z axis is not taken into account for tracking, so you are only tracking along the X/Y axis.
 
 ---
+## Used constant turn rate and velocity magnitude model (CTRV)
 
 ## Checking the Consistency of the UKF
 * Using NIS for the updated parameters for both Lidar and Radar. The calculation is performed inside the update lidar and update radar functions in the ukf.cpp
